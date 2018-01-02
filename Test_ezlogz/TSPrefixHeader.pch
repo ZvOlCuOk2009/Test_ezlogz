@@ -1,0 +1,34 @@
+//
+//  TSPrefixHeader.pch
+//  Test_ezlogz
+//
+//  Created by Admin on 28.12.17.
+//  Copyright © 2017 Tsvigun Aleksander. All rights reserved.
+//
+
+#ifndef TSPrefixHeader_pch
+#define TSPrefixHeader_pch
+
+#define API_KEY_GOOGLE_MAPS @"AIzaSyDESTdvfGMZCHyFjOEutdp4IcFepgMN3JA"
+
+#define kfirstLocationLatitude 34.0522
+#define kfirstLocationLongitude -118.2436
+#define klastLocationLatitude 40.7142
+#define klastLocationLongitude -74.0059
+
+#define kUpperBoundLatitude 46.80
+#define kLowerBoundLatitude 29.76
+#define kUpperBoundLongitude -118.64
+#define kLowerBoundLongitude -75.6
+
+#define kStepLatitude 0.0002
+#define floatingCorrection 0.0002
+
+#define kMax 10000
+#define kDeviation 5
+
+#define kOffsetLastPoint 0.0066
+
+#define kMile 1609.344
+
+#endif /* TSPrefixHeader_pch */
